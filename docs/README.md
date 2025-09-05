@@ -18,7 +18,7 @@ O sistema simula todo o gerenciamento de um carrinho de compras, com as mais div
   A funcionalidade Listar Itens do Carrinho, recebe o identificador do carrinho como parâmetro e lista todos os produtos adicionados com sua quantidade e subtotal.
 
 - #### Calcular Total
-  A funcionalidade Calcular Total, reber o identificador do carrinho como parametro e soma todos os subtotais dos produtos para ter o valor total do carrinho.
+  A funcionalidade Calcular Total, receber o identificador do carrinho como parametro e soma todos os subtotais dos produtos para ter o valor total do carrinho.
 - #### Aplicar Desconto Fixo 
   A funcionalidade Aplicar Desconto Fixo é uma Regra de Negócio simples que simula a aplicação de um cupom de desconto de 10%. Sendo assim, a função recebe o identificador do carrinho, chama a função
   de Calcular o Total do mesmo, e aplica um desconto simples de 10% no valor total do carrinho.
